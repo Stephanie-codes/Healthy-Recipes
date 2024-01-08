@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthy Recipe App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <a href="favourites.html" id="viewFavouritesButton">
+    <img src="images/heart2.png" alt="Favorites">
+  </a>
+  <h1>Healthy Recipes</h1>
+  <h2>Fuel your wellness journey with our recipe finder app – where every bite is a step towards vibrant health! Savour
+    delicious recipes tailored to your nutritional needs, making every meal a wholesome delight.</h2>
+
+  <div class="input">
+    <p>Please select your diet type</p>
+    <select name="diet" id="diet">
+      <option value=""></option>
+      <option value="balanced">Balanced</option>
+      <option value="high-fiber">High Fibre</option>
+      <option value="high-protein">High Protein</option>
+      <option value="low-carb">Low Carb</option>
+      <option value="low-fat">Low Fat</option>
+      <option value="low-sodium">Low Sodium</option>
+    </select>
+
+    <p>Please select the main ingredient</p>
+    <select name="ingredient" id="ingredient">
+      <option value=""></option>
+      <option value="chicken">Chicken</option>
+      <option value="beef">Beef</option>
+      <option value="duck">Duck</option>
+      <option value="lamb">Lamb</option>
+      <option value="turkey">Turkey</option>
+      <option value="seafood">Seafood</option>
+      <option value="fish">Fish</option>
+      <option value="vegan">Vegan</option>
+      <option value="fish">Vegetarian</option>
+    </select>
+
+    <p>Please select the calories range (per serving)</p>
+    <select name="calories" id="calories">
+      <option value=""></option>
+      <option value="0-100">0-100</option>
+      <option value="100-200">100-200</option>
+      <option value="200-300">200-300</option>
+      <option value="300-400">300-400</option>
+      <option value="400-500">400-500</option>
+    </select>
+
+  </div>
+  <div class="submit">
+    <button id="submit">Find recipes!</button>
+  </div>
+
+  <div class="output" id="output">
+
+  </div>
+
+</body>
+    
+<script defer src="script.js"></script>
+    
+</html>
