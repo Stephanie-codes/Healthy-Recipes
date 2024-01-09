@@ -125,3 +125,9 @@ a:hover {
   color: #888;
   margin-top: 10px;
 }
+
+#favourites-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
